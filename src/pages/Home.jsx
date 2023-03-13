@@ -13,13 +13,13 @@ const Home = () => {
         {/* metas para SEO */}
       </Helmet>
       <Navbar />
-      <section className="container text-white flex gap-8 max-[800px]:flex-col min-h-screen">
+      <section className="container text-white flex gap-8 max-[800px]:flex-col max-[1000px]:flex-col  min-h-screen">
         <div className="w-1/2 max-[800px]:w-full max-[800px]:text-center flex flex-col justify-center gap-8 max-sm:p-0 p-24">
-          <p className="text-2xl text-slate-400 font-thin">
+          <p className="text-2xl max-sm:px-4 text-slate-400 font-thin">
             SO, YOU WANT TO TRAVEL TO
           </p>
           <h1 className="text-8xl">SPACE</h1>
-          <p className="text-lg text-slate-400 font-thin select-none ">
+          <p className="text-lg max-sm:px-4 text-slate-400 font-thin select-none ">
             Let's face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we'll give you a trully out this

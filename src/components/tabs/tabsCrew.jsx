@@ -56,7 +56,7 @@ export function TabCrew({ children, activeTab, currentTab, setActiveTab }) {
         className={`px-5 py-3 rounded cursor-pointer
       ${
         activeTab === currentTab
-          ? 'opacity-50 select-none'
+          ? 'opacity-50 select-none animate-ping'
           : 'text-white select-none'
       }`}
         onClick={() => setActiveTab(currentTab)}

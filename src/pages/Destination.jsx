@@ -19,7 +19,7 @@ const Destination = () => {
       </Helmet>
       <Navbar />
       <section className="container min-h-screen text-white flex flex-col">
-        <div className="w-1/2 p-10 sm:w-full">
+        <div className="w-1/2 p-10 max-sm:w-full">
           <p className="text-2xl text-white">
             <span className="font-mono mr-2 text-slate-400">01</span>
             PICK YOUR DESTINATION

@@ -35,7 +35,9 @@ const Navbar = () => {
       className="flex justify-between items-center
     py-5 pl-5 relative"
     >
-      <img src={logo} alt="logo" className="w-10 select-none" />
+      <Link to="/">
+        <img src={logo} alt="logo" className="w-10 select-none" />
+      </Link>
       <span className="absolute left-32 w-[450px] h-[.5px] bg-slate-500 bg-opacity-40 max-[800px]:hidden"></span>
       <button
         onClick={() => {

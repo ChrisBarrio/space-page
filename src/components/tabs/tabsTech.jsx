@@ -59,7 +59,7 @@ export function TabTech({ children, activeTab, currentTab, setActiveTab }) {
         className={`px-5 py-3 rounded cursor-pointer
       ${
         activeTab === currentTab
-          ? 'opacity-50 select-none border-r-4 max-sm:border-r-0 max-sm:border-b-4'
+          ? 'opacity-50 select-none border-r-4 max-sm:border-r-0 max-sm:border-b-4 '
           : 'text-white select-none'
       }`}
         onClick={() => setActiveTab(currentTab)}
