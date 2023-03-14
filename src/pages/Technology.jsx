@@ -34,7 +34,7 @@ const Technology = () => {
           </TabsTech>
         </div>
       </section>
-      <footer className="container text-sm text-slate-300 text-center py-4">
+      <footer className="container text-xs text-slate-300 text-center py-4">
         Desarrollado por Chbwdev con ❤️
       </footer>
     </div>

@@ -18,7 +18,7 @@ export function TabsTech({ children }) {
   const [activeTab, setActiveTab] = useState(findActiveTab(children));
   return (
     <>
-      <div className="flex flex-col max-sm:flex-row max-sm:mx-auto  gap-8 justify-start absolute left-10 max-[800px]:left-0 max-[800px]:relative">
+      <div className="flex flex-col max-sm:flex-row max-sm:mx-auto  gap-8 justify-start absolute left-10 max-2xl:relative max-2xl:mr-2 max-[800px]:left-0 max-[800px]:relative">
         {children.map((item, i) => {
           return (
             <div key={i}>

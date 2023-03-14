@@ -36,7 +36,7 @@ const Crew = () => {
           </TabsCrew>
         </div>
       </section>
-      <footer className="container text-sm text-slate-300 text-center pt-8 pb-4">
+      <footer className="container text-xs text-slate-300 text-center pt-8 pb-4">
         Desarrollado por Chbwdev con ❤️
       </footer>
     </div>

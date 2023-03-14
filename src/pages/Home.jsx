@@ -27,14 +27,14 @@ const Home = () => {
           </p>
         </div>
         <div className="w-1/2 max-[800px]:w-full max-[800px]:text-center flex justify-center items-center">
-          <div className="flex justify-center items-center h-60 w-60 bg-slate-50 text-black rounded-full ">
+          <div className="flex justify-center items-center h-60 w-60 bg-slate-50 text-black rounded-full hover:ease-in duration-300 hover:shadow-slate-200 shadow-lg hover:bg-slate-900 hover:text-white hover:cursor-pointer">
             <Link to="/destination" className="text-2xl font-thin ">
               EXPLORE
             </Link>
           </div>
         </div>
       </section>
-      <footer className="container text-sm text-slate-300 text-center py-4">
+      <footer className="container text-xs text-slate-300 text-center py-4">
         Desarrollado por Chbwdev con ❤️
       </footer>
     </div>
